@@ -327,7 +327,7 @@ export default function DriveSearchResults({ configuration, searchViewState }) {
   return (
     <PaginatedResults
       queryKey={[
-        "drive" + hashConfiguration(configuration),
+        `drive${hashConfiguration(configuration)}`,
         { input: searchData.input, queryObj: searchData.queryObj, fileType, owner, dateFilter },
       ]}
       searchViewState={searchViewState}
