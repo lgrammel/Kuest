@@ -3,7 +3,7 @@ QUEST
 </h1>
 
 <p align="center">
-  ⚔️ Quest is a Unified Engine for Searching Things  ⚔️
+  ⚔️ Kuest2 is a Unified Engine for Searching Things  ⚔️
 </p>
 
 ---
