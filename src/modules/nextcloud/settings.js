@@ -10,7 +10,7 @@ import { useQuery } from "react-query";
 async function signIn(configuration) {
   const { url } = configuration.get();
 
-  const res = await fetch(url + "/index.php/login/v2", {
+  const res = await fetch(`${url}/index.php/login/v2`, {
     credentials: "omit",
     method: "POST",
     headers: {
@@ -68,7 +68,7 @@ async function signIn(configuration) {
 async function signOut(configuration) {
   const { url, username, password } = configuration.get();
   try {
-    const revokeRes = await fetch(url + "/ocs/v2.php/core/apppassword?format=json", {
+    const revokeRes = await fetch(`${url}/ocs/v2.php/core/apppassword?format=json`, {
       credentials: "omit",
       method: "DELETE",
       headers: {
