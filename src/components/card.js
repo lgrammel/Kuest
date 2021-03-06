@@ -15,6 +15,8 @@ function FocusableCard({ className = "", ...props }) {
         className={className + " focusable"}
         interactive
         tabIndex={0}
+    
+    
         onKeyDown={(event) => {
           if (
             _.isFunction(props.onClick) &&
