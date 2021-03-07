@@ -61,7 +61,7 @@ brew cask upgrade quest
 
 > Why not use an indexing service such as [Kendra](https://aws.amazon.com/kendra/), [Elastic search](https://www.elastic.co/) or [Algolia](https://www.algolia.com/)?
 
-Quest is very lightweight and easy to install. While it does not provide the same unified experience, it is good enough to search across many services without relying on an expensive setup.
+Quest is very lightweight zxczxcand easy to install. While it does not provide the same unified experience, it is good enough to search across many services without relying on an expensive setup.
 
 > Which search features are available?
 
