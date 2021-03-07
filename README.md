@@ -1,5 +1,5 @@
 <h1 align="center">
-QUESTasd
+QUEST
 </h1>
 
 <p align="center">
