@@ -8,7 +8,7 @@ QUEST
 
 ---
 
-*Quest* is a meta-search client that can connect to various applications and sources. It will submit a search query to all the configured services and aggregate the results.
+*Quest* is a asdasdmeta-search client that can connect to various applications and sources. It will submit a search query to all the configured services and aggregate the results.
 asdads
 You can connect it to various services like JIRA, Confluence, Google Drive, Dropbox paper, Slack, etc.
 
