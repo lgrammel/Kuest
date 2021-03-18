@@ -13,7 +13,7 @@ function FocusableCard({ className = "", ...props }) {
   return (
     <div ref={elRef}>
       <Card
-        className={className + " focusable"}
+        className={`${className} focusable`}
         interactive
         tabIndex={0}
     
