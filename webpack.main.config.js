@@ -4,7 +4,7 @@ module.exports = {
    * that runs in the main process.
    */
   entry: "./src/main.js",
-  // Put your normal webpack config below here
+  // Put your normal webpack config below here test
   module: {
     rules: require("./webpack.rules"),
   },
