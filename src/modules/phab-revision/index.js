@@ -53,7 +53,7 @@ function RevisionResultItem({ url, item }) {
         <ExternalLink href={`${url}/D${id}`}>D{id}</ExternalLink> {fields.title}
       </p>
       <p>
-        {fields.summary.length > 200 ? fields.summary.substring(0, 200) + "..." : fields.summary}
+        {fields.summary.length > 200 ? `${fields.summary.substring(0, 200)}...` : fields.summary}
       </p>
       <p>
         Last updated <Time seconds={fields.dateModified} />
