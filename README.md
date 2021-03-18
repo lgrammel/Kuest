@@ -1,5 +1,5 @@
 <h1 align="center">
-QUEST
+KUEST
 </h1>
 
 <p align="center">
