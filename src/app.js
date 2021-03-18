@@ -8,6 +8,7 @@ import ErrorBoundary from "./components/error-boundary";
 import { ExternalLink } from "./components/external-link";
 import { ReactQueryConfigProvider } from "react-query";
 
+// test
 const queryConfig = {
   // useQuery
   retry: 3,
