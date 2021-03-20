@@ -353,7 +353,7 @@ function makeRedmineRenderer({ pages }) {
         const issue = response.issue;
         return [
           {
-            key: "issue-" + issue.id,
+            key: `issue-${issue.id}`,
             component: <RedmineIssuesItem key={issue.id} issue={issue} url={redirectedUrl} />,
             item: {
               ...issue,
