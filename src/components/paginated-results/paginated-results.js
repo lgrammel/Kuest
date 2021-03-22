@@ -91,7 +91,7 @@ export function PaginatedResults({
         {!error && total > 0 ? (
           <>
             <Tooltip
-              content={numberFormatter.format(total) + " " + (total === 1 ? "result" : "results")}
+              content={`${numberFormatter.format(total)} ${total === 1 ? "result" : "results"}`}
             >
               <H5 className={styles.moduleTitle}>{name}</H5>
             </Tooltip>
