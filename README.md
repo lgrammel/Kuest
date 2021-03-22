@@ -14,7 +14,7 @@ You can connect it to varioasdasdus services like JIRA, Confluence, Google Drive
 ![Quest - screenshot](./doc/screenshot.png)
 
 ## Features 🚀
-
+asdasd
 - 🔎 Search across many services (see list below). Quickly preview the results.
 - 🔓 **Secure and private**: Settings and credentials are encrypted and stored locally. The encryption key is stored in your system's keychain. There are no servers between Quest and the services.
 - ⌨️ Usable entirely with the keyboard. You can use the arrow keys to navigate between the results. Use `Cmd(Ctrl) + Shift + Space` to focus the application and start searching!
