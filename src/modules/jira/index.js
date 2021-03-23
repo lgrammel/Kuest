@@ -112,7 +112,7 @@ function JiraResultItem({ item = {}, url }) {
       <p>
         <IssueType issuetype={issuetype} />
         {"  "}
-        <ExternalLink href={url + "/browse/" + key}>{key}</ExternalLink> - {summary}
+        <ExternalLink href={`${url}/browse/${key}`}>{key}</ExternalLink> - {summary}
       </p>
       <p>
         {status?.name} | Created: <Time iso={created} /> | Updated: <Time iso={updated} /> |{" "}
