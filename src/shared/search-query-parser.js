@@ -1,5 +1,5 @@
 // adapted from https://github.com/nepsilon/search-query-parser/
-// MIT test test
+// MIT test test ergerg
 exports.parse = function (string, options) {
   let value;
   let key;
