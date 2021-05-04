@@ -36,7 +36,7 @@ exports.parse = function (string, options) {
       // Strip surrounding quotes
       val = val.replace(/^"|"$|^'|'$/g, "");
       // Strip backslashes respecting escapes
-      val = (val + "").replace(/\\(.?)/g, (s, n1) => {
+      val = (`${val}`).replace(/\\(.?)/g, (s, n1) => {
         switch (n1) {
           case "\\":
             return "\\";
@@ -64,7 +64,7 @@ exports.parse = function (string, options) {
       // Strip surrounding quotes
       term = term.replace(/^"|"$|^'|'$/g, "");
       // Strip backslashes respecting escapes
-      term = (term + "").replace(/\\(.?)/g, (s, n1) => {
+      term = (`${term}`).replace(/\\(.?)/g, (s, n1) => {
         switch (n1) {
           case "\\":
             return "\\";
@@ -249,7 +249,7 @@ exports.parse = function (string, options) {
         }
       } else {
         // We add it as pure text
-        const text = term.keyword + ":" + term.value;
+        const text = `${term.keyword}:${term.value}`;
         query.text.push(text);
 
         // When offsets is true, push a new offset
