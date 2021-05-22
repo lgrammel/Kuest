@@ -5,3 +5,5 @@ import ConfigurationForm from "../../components/configuration-form";
 export default function PaperSettings({ configurationState }) {
   return <ConfigurationForm configuration={configurationState} fields={["token", "pageSize"]} />;
 }
+
+// test
