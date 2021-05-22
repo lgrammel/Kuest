@@ -10,6 +10,8 @@ const LAYOUT_CLASSES = {
   [LAYOUTS.COLUMNS]: "column-layout",
 };
 
+// test
+
 class LayoutService extends EventEmitter {
   setLayout(layout) {
     document.body.classList.remove(...Object.values(LAYOUT_CLASSES));
