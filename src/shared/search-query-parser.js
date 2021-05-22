@@ -1,5 +1,6 @@
 // adapted from https://github.com/nepsilon/search-query-parser/
 // MIT test 
+//t est
 exports.parse = function (string, options) {
   let value;
   let key;
