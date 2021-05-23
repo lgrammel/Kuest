@@ -1,4 +1,4 @@
-//test2
+//test23
 module.exports = {
   packagerConfig: {
     appBundleId: "org.quest.app",
