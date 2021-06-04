@@ -6,18 +6,6 @@ class ShortcutsManager {
   constructor() {
     this.shortcuts = new Shortcuts();
   }
-
-  initialize(actions) {
-    this.reset();
-    this._setActions(actions);
-  }
-
-  reset() {
-    this.shortcuts.reset();
-    this.registeredActions = new Map();
-    this._setActions([]);
-  }
-
   register({ actionId, handler }) {
     if (!this.actionsById[actionId]) {
       return;
@@ -32,6 +20,18 @@ class ShortcutsManager {
       },
     });
   }
+  initialize(actions) {
+    this.reset();
+    this._setActions(actions);
+  }
+
+  reset() {
+    this.shortcuts.reset();
+    this.registeredActions = new Map();
+    this._setActions([]);
+  }
+
+
 
   _setActions(actions) {
     this.actions = actions;
