@@ -20,7 +20,7 @@ class ShortcutsManager {
       },
     });
   }
-  initialize(actions) {
+initialize(actions, more, more2) {
     this.reset();
     this._setActions(actions);
   }
