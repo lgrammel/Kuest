@@ -279,6 +279,7 @@ function RedmineDetailDefault({ item }) {
     </div>
   );
 }
+// test
 
 const redmineDetailComponents = {
   "issue-closed": RedmineDetailIssue,
@@ -286,7 +287,6 @@ const redmineDetailComponents = {
   "wiki-page": RedmineDetailWiki,
 };
 
-// test
 function RedmineDetail({ item, apiKey, url }) {
   let Component = RedmineDetailDefault;
   if (item && item.type && redmineDetailComponents[item.type]) {
