@@ -289,7 +289,7 @@ const redmineDetailComponents = {
 
 function RedmineDetail({ item, apiKey, url }) {
   let Component = RedmineDetailDefault;
-  if (item && item.type && redmineDetailComponents[item.type]) { // test
+  if (item && item.type && redmineDetailComponents[item.type]) { // te
     Component = redmineDetailComponents[item.type];
   }
   return <Component apiKey={apiKey} baseUrl={url} item={item} />;
