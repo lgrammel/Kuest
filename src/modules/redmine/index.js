@@ -286,6 +286,7 @@ const redmineDetailComponents = {
   "wiki-page": RedmineDetailWiki,
 };
 
+// test
 function RedmineDetail({ item, apiKey, url }) {
   let Component = RedmineDetailDefault;
   if (item && item.type && redmineDetailComponents[item.type]) {
