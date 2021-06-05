@@ -311,6 +311,10 @@ function RedmineResultItem({ item = {} }) {
 function RedmineIssuesItem({ issue = {}, url }) {
   const { id, subject, created_on, updated_on, tracker } = issue;
 
+  if (tracker && tracker.name) {
+    console.log(tracker.name)
+  }
+
   return (
     <>
       <p>
