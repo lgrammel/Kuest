@@ -12,7 +12,7 @@ import { PaginatedResults } from "../../components/paginated-results/paginated-r
 import { useQuery } from "react-query";
 import { Filter } from "../../components/filters/filters";
 
-//testasd
+//test
 const TYPE_FILTERS = {
   ANY: "any",
   ISSUES: "issues",
